@@ -12,6 +12,8 @@
 		270D071F20FC58550037F510 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 270D071D20FC58550037F510 /* Main.storyboard */; };
 		270D072120FC58590037F510 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 270D072020FC58590037F510 /* Assets.xcassets */; };
 		270D072420FC58590037F510 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 270D072220FC58590037F510 /* LaunchScreen.storyboard */; };
+		270D072C20FC8A4F0037F510 /* UIImageCropper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 270D072B20FC8A4F0037F510 /* UIImageCropper.swift */; };
+		270D072E20FC8A800037F510 /* UIImage+FixOrientation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 270D072D20FC8A800037F510 /* UIImage+FixOrientation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		270D072020FC58590037F510 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		270D072320FC58590037F510 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		270D072520FC58590037F510 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		270D072B20FC8A4F0037F510 /* UIImageCropper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageCropper.swift; sourceTree = "<group>"; };
+		270D072D20FC8A800037F510 /* UIImage+FixOrientation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+FixOrientation.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +59,10 @@
 			isa = PBXGroup;
 			children = (
 				270D071920FC58550037F510 /* AppDelegate.swift */,
-				270D071B20FC58550037F510 /* ViewController.swift */,
 				270D071D20FC58550037F510 /* Main.storyboard */,
+				270D071B20FC58550037F510 /* ViewController.swift */,
+				270D072B20FC8A4F0037F510 /* UIImageCropper.swift */,
+				270D072D20FC8A800037F510 /* UIImage+FixOrientation.swift */,
 				270D072020FC58590037F510 /* Assets.xcassets */,
 				270D072220FC58590037F510 /* LaunchScreen.storyboard */,
 				270D072520FC58590037F510 /* Info.plist */,
@@ -136,6 +142,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				270D071C20FC58550037F510 /* ViewController.swift in Sources */,
+				270D072C20FC8A4F0037F510 /* UIImageCropper.swift in Sources */,
+				270D072E20FC8A800037F510 /* UIImage+FixOrientation.swift in Sources */,
 				270D071A20FC58550037F510 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
